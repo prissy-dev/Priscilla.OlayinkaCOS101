@@ -1,5 +1,11 @@
-fn  main() {
-	let fees = 25_00;
-	let salary:f64 = 35_000.00;
-	println!("fees is {} and salary is {}",fees,salary);
+fn main() {
+	let p:f64 - 1000.0;
+	let r:f64 - 1.0;
+	let t:f64 - 2.0;
+
+	// simpl interest
+	let a = p * ( 1.0 + (r / 100.0)) * t;
+	println!("Amount is {}", si);
+	let si = a - p;
+	println!("Simple Interest is {}", si)
 }
