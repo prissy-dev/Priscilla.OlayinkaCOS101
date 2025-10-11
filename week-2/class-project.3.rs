@@ -1,25 +1,19 @@
 fn main() {
     
-    let sales_amounts: [f64; 5] = [
-        450_000.00,
-        1_500_000.00,
-        750_000.00,
-        2_850_000.00,
-        250_000.00,
-    ];
+    let principal_cost: f64 = 510_000.0; 
+    let rate_of_depreciation: f64 = 5.0;  
+    let time_years: i32 = 3;             
 
     
-    let total_sum: f64 = sales_amounts.iter().sum();
+    let rate_decimal: f64 = rate_of_depreciation / 100.0;
+
+ 
+    let final_value = principal_cost * (1.0 - rate_decimal).powi(time_years);
 
     
-    let count: usize = sales_amounts.len(); 
-    let average: f64 = total_sum / (count as f64); 
-
+    println!("Initial Cost (P): N{:.2}", principal_cost);
+    println!("Depreciation Rate (R): {}%", rate_of_depreciation);
+    println!("Time Period (t): {} years", time_years);
     
-    println!("Sales Record (Amounts): {:?}", sales_amounts);
-    
-    println!("Total Number of Items: {}", count);
-    println!("Total Sales Sum: N{:.2}", total_sum);
-    println!("Average Sales Amount: N{:.2}", average);
-    
+    println!("Value of the TV after {} years (A): N{:.2}", time_years, final_value);
 }
