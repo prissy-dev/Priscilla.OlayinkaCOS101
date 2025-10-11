@@ -3,7 +3,7 @@ fn main() {
 	let r:f64 - 1.0;
 	let t:f64 - 2.0;
 
-	// simpl interest
+	//simple interest
 	let a = p * ( 1.0 + (r / 100.0)) * t;
 	println!("Amount is {}", si);
 	let si = a - p;
