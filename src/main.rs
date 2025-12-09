@@ -7,7 +7,7 @@ fn main() {
 	//here two variables owns a heap value,
 	//two pointers to the same content is not allowed inrust 
 
-	//Rust is very bsmart in terms of memory access,so it detects a race condition
+	//Rust is very smart in terms of memory access,so it detects a race condition
 	//as two variables point to the same heap
 
 	println!("{:?}",v );
