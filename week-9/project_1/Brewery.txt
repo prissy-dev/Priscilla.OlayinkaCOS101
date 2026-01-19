@@ -1,0 +1,5 @@
+NIGERIAN BREWERIES PLC - DRINK CATEGORIES
+
+LAGER: 33 Export, Desperados, Goldberg, Gulder, Heineken, Star
+STOUT: Legend, Turbo King, Williams,Lion,Eagle,Guinness
+NON-ALCOHOLIC: Maltina, Amstel Malta, Malta Gold, Fayrouz,Maltex,Dubic
